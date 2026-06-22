@@ -16,6 +16,64 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/logo.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img.logo.png') }}">
     <link rel="stylesheet" href="{{ asset('css/beranda.css') }}">
+
+    <!-- ==========================================================================
+       TAMBAHAN CSS RESPONSIF UNTUK MOBILE INSPECT (TANPA MERUBAH STRUKTUR)
+       ========================================================================== -->
+    <style>
+        @media (max-width: 767.98px) {
+            body, html {
+                overflow-x: hidden;
+            }
+            .hero-section h1 {
+                font-size: 1.8rem !important;
+                line-height: 1.3;
+            }
+            .hero-section p {
+                font-size: 1rem !important;
+            }
+            .profil-container {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 20px !important;
+                text-align: center !important;
+            }
+            .profil-text {
+                max-width: 100% !important;
+                margin-bottom: 20px !important;
+            }
+            .profil-img img {
+                width: 100% !important;
+                max-width: 280px !important;
+                height: auto !important;
+                margin: 0 auto !important;
+            }
+            .klien-slider {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                justify-content: center !important;
+                gap: 15px !important;
+            }
+            .klien-item {
+                padding: 10px !important;
+            }
+            .klien-item img {
+                height: 50px !important;
+            }
+            #misiText ul {
+                display: block !important;
+                text-align: left !important;
+                padding-left: 20px !important;
+            }
+            .wa-float {
+                width: 50px !important;
+                height: 50px !important;
+                bottom: 20px !important;
+                right: 20px !important;
+                font-size: 25px !important;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -50,7 +108,7 @@
         <div class="profil-text">
             <h2>Zetoro Janaloka</h2>
             <p>Perusahaan CV. Zetoro Janaloka Teknologi berdiri pada tahun 2021 oleh Bapak Gatot Wahyu dengan penuh perjuangan.
-            Perusahaan yang berspesialisasi dalam memberikan solusi dan layanan teknologi untuk memberdayakan bisnis dan individu di berbagai industri.
+            Perusahaan yang berspesialisasi dalam memberikan solusi dan layanan teknologi untuk memberdayakan bisnis dan individu di berbagai industries.
             Zetoro Janaloka didirikan dengan semangat kolaborasi dan inovasi serta menyediakan solusi visual yang memikat dengan fokus pada kreativitas,
             kualitas, dan keunggulan teknologi serta berspesialisasi juga dalam menyediakan berbagai layanan multimedia yang komprehensif untuk memenuhi kebutuhan klien.</p>
         </div>
@@ -59,8 +117,6 @@
         </div>
     </div>
 </section>
-
-
 
 <section id="layanan" class="py-5">
     <div class="container text-center">
@@ -85,49 +141,49 @@
                 <h5 class="fw-semibold">Solusi Infrastruktur IT</h5>
                 <p class="text-muted">Solusi infrastruktur TI komprehensif kami mencakup desain dan
                     implementasi jaringan, manajemen server, komputasi awan, keamanan siber, dan banyak lagi.</p>
+                </div>
             </div>
-        </div>
 
-
-<div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="layanan-box shadow">
-                <i class="bi bi-hdd-network" style="font-size: 3rem; color: #28a745;"></i>
-                <br>
-                <h5 class="fw-semibold">Layanan Terkelola</h5>
-                <p class="text-muted">Kami menyediakan dukungan TI proaktif dan layanan manajemen untuk
-                memastikan kelancaran operasional infrastruktur teknologi Anda.</p>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="layanan-box shadow">
+                    <i class="bi bi-hdd-network" style="font-size: 3rem; color: #28a745;"></i>
+                    <br>
+                    <h5 class="fw-semibold">Layanan Terkelola</h5>
+                    <p class="text-muted">Kami menyediakan dukungan TI proaktif dan layanan manajemen untuk
+                    memastikan kelancaran operasional infrastruktur teknologi Anda.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
-            <div class="layanan-box shadow">
-                <i class="bi bi-display" style="font-size: 3rem; color: #28a745;"></i>
-                <br>
-                <h5 class="fw-semibold">Solusi Videotron</h5>
-                <p class="text-muted">Kami menawarkan solusi videotron untuk display dalam dan luar ruangan,
-                acara, pameran, dan aplikasi papan reklame digital. Dari konsep hingga instalasi,
-                kami menyediakan layanan menyeluruh, termasuk pembuatan konten, pemilihan perangkat keras,
-                instalasi, dan pemeliharaan untuk memastikan pengalaman visual yang mulus dan memukau.</p>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="layanan-box shadow">
+                    <i class="bi bi-display" style="font-size: 3rem; color: #28a745;"></i>
+                    <br>
+                    <h5 class="fw-semibold">Solusi Videotron</h5>
+                    <p class="text-muted">Kami menawarkan solusi videotron untuk display dalam dan luar ruangan,
+                    acara, pameran, dan aplikasi papan reklame digital. Dari konsep hingga instalasi,
+                    kami menyediakan layanan menyeluruh, termasuk pembuatan konten, pemilihan perangkat keras,
+                    instalasi, dan pemeliharaan untuk memastikan pengalaman visual yang mulus dan memukau.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
-            <div class="layanan-box shadow">
-                <i class="bi bi-camera-video" style="font-size: 3rem; color: #28a745;"></i>
-                <br>
-                <h5 class="fw-semibold">Liputan Acara Langsung</h5>
-                <p class="text-muted">Baik itu acara perusahaan, konferensi, konser,
-                atau peluncuran produk, kami menawarkan layanan liputan acara langsung profesional
-                termasuk pengaturan multi-kamera, streaming langsung, dan penyuntingan pasca-acara.</p>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+                <div class="layanan-box shadow">
+                    <i class="bi bi-camera-video" style="font-size: 3rem; color: #28a745;"></i>
+                    <br>
+                    <h5 class="fw-semibold">Liputan Acara Langsung</h5>
+                    <p class="text-muted">Baik itu acara perusahaan, konferensi, konser,
+                    atau peluncuran produk, kami menawarkan layanan liputan acara langsung profesional
+                    berupa pengaturan multi-kamera, streaming langsung, dan penyuntingan pasca-acara.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
-            <div class="layanan-box shadow">
-                <i class="bi bi-person-gear" style="font-size: 3rem; color: #28a745;"></i>
-                <br>
-                <h5 class="fw-semibold">Konsultasi IT</h5>
-                <p class="text-muted">Memberikan konsultasi untuk membantu perusahaan mengoptimalkan penggunaan teknologi.</p>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="layanan-box shadow">
+                    <i class="bi bi-person-gear" style="font-size: 3rem; color: #28a745;"></i>
+                    <br>
+                    <h5 class="fw-semibold">Konsultasi IT</h5>
+                    <p class="text-muted">Memberikan konsultasi untuk membantu perusahaan mengoptimalkan penggunaan teknologi.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -155,50 +211,6 @@
         </div>
     </div>
 </section>
-
-{{-- <section id="blog" class="py-5 bg-light" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center text-success mb-5">Portofolio Kami</h2>
-
-        <div id="multiSlideCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-            <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                        @foreach(range(1,5) as $i)
-                        <div class="card" style="width: 180px;">
-                            <img src="{{ asset('img/porto' . $i . '.jpg') }}" class="card-img-top" alt="Portofolio {{ $i }}">
-                            <div class="card-body text-center">
-                                <h6 class="card-title">Proyek {{ $i }}</h6>
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                        @foreach(range(6,10) as $i)
-                        <div class="card" style="width: 180px;">
-                            <img src="{{ asset('img/porto' . $i . '.jpg') }}" class="card-img-top" alt="Portofolio {{ $i }}">
-                            <div class="card-body text-center">
-                                <h6 class="card-title">Proyek {{ $i }}</h6>
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#multiSlideCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#multiSlideCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-    </div>
-</section> --}}
 
 <div class="container my-5" data-aos="fade-up">
     <h2 class="text-center text-success mb-4">Kenapa Harus Memilih Kami?</h2>
@@ -281,7 +293,7 @@
                             <input type="email" name="email" class="form-control rounded" id="email" placeholder="Alamat email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="pesan" class="form-label">Pesan</label>
+                            <label whitespace for="pesan" class="form-label">Pesan</label>
                             <textarea name="pesan" class="form-control rounded" id="pesan" rows="4" placeholder="Tulis pesan Anda" required></textarea>
                         </div>
                         <div class="d-flex flex-wrap gap-2">
@@ -372,7 +384,7 @@
                                 <i class="bi bi-instagram me-2"></i>@zetoro.janaloka
                             </a>
                         </li>
-                    </ul>
+                    </ul >
                 </div>
             </div>
         </div>
@@ -409,7 +421,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 });
 </script>
-
 
 <script>
 function showVisi() {

@@ -33,7 +33,7 @@ Pastikan kamu sudah memasang **PHP**, **Composer**, dan local server seperti **L
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/syfrzkngl/Zetoro-Janaloka-Teknologi-individual.git]
+git clone [https://github.com/syfrzkngl/Zetoro-Janaloka-Technology-individual.git]
 cd Zetoro-Janaloka-Teknologi-individual
 2. Install Dependencies via Composer
 Bash

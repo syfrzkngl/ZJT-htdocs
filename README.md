@@ -1,4 +1,4 @@
-# Zetoro Janaloka Teknologi - Personal Website
+# Zetoro Janaloka Teknologi - Company Website
 
 Landing page resmi dan profil perusahaan untuk **CV. Zetoro Janaloka Teknologi**, sebuah perusahaan penyedia solusi teknologi, multimedia, dan konsultasi bisnis yang berdiri sejak tahun 2021.
 

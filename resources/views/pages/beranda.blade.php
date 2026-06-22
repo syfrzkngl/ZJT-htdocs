@@ -31,7 +31,6 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#beranda">BERANDA</a></li>
                 <li class="nav-item"><a class="nav-link" href="#layanan">LAYANAN</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blog">PORTOFOLIO</a></li>
                 <li class="nav-item"><a class="nav-link" href="#kontak">KONTAK</a></li>
             </ul>
         </div>
@@ -331,7 +330,7 @@
     </div>
 </section>
 
-<a href="https://wa.me/628224564552" class="wa-float" target="_blank">
+<a href="https://wa.me/628224564552" class="wa-float" target="_blank" style="text-decoration: none;">
     <i class="fab fa-whatsapp"></i>
 </a>
 
